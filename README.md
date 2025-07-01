@@ -3,7 +3,8 @@ Emacs theme that mimics Vim's default colorscheme.
 
 <img width="1552" alt="image" src="https://github.com/user-attachments/assets/0cc4c6fd-ac7f-4ca6-aeca-920d2fbfd715" />
 
-To use, add the following snippet to your  `.emacs` file or `.emacs.d/init.el`.
+
+To use, move `my-vim-mac-theme.el` to `~/.emacs.d/themes` and add the following snippet to your  `.emacs` file or `.emacs.d/init.el`.
 ```
 (add-hook 'prog-mode-hook                                                                                                         
           (lambda ()                                                                                                              
